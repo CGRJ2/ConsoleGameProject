@@ -20,7 +20,7 @@ namespace Week4_Day2_OOP_Project_MudGame
     public class Inventory
     {
         // 여기 살짝 꼬임
-
+        // 인벤토리는 플레이어 고유니까 객체로 만들어야하나? 솔플이니까 그냥 정적클래스로 할까?
         public int invenCapacity = 8;
         public Item[] inventory = new Item[invenCapacity];
 

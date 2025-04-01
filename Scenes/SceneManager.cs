@@ -10,6 +10,7 @@ namespace Week4_Day2_OOP_Project_MudGame.Scenes
     // 씬매니저를 static으로 선언하여 객체 없이도 사용 가능하게 만듦
     public static class SceneManager
     {
+
         // 현재 씬 정보
         private static Scene nowScene;
 
@@ -25,6 +26,7 @@ namespace Week4_Day2_OOP_Project_MudGame.Scenes
             //// 씬 추가할때마다 추가하기
         };
 
+       
         
         // 씬 불러올 때 순차적으로 실행할 함수들.
         public static void SceneLoad(string sceneName)
